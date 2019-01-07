@@ -1,74 +1,80 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+# Your Project's Name
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This is a website about a challenge to run or walk 1,000 miles in 2019. It was created as part of Code Institute's January 2019 hackathon 
+by Selina Erhabor, Sarah Mackle and Joan Sweeney.
+ 
+## UX
+ 
+The purpose of this website is to provide encouragement to people participating in the challenge.
 
-## Preview
+It was created with the [Start Bootstrap Grayscale theme](https://startbootstrap.com/template-overviews/grayscale/), which was modified with custom 
+images and text.
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/templates/grayscale.jpg)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+### User Stories
+- As a challenge participant, I want to get tips and encouragement about achieving my goal.
+The site provides helpful advice to users about the best way of achieving their goal.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
+- As a challenge participant, I want clear feedback on my progress.
+The site has a countdown feature.
 
-## Status
+- As a friend or relative of participants, I want to be able to send messages of encouragement.
+The site has a form for sending messages of support to challenge participants.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
+## Features
 
-## Download and Installation
+### Existing Features
+- The countdown allows users to track progress towards their goal.
+- The suggestions section gives users ideas about how to make the challenge more enjoyable.
+- There is a form for supporters of challenge participants to send messages of encouragement.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
-* Install via npm: `npm i startbootstrap-grayscale`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
+## Technologies Used
 
-## Usage
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)** was used to write the content of the site.
+- **[Start Bootstrap](https://startbootstrap.com/)** was used for the design of the site.
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)** was used to add custom styles.
 
-### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+## Testing
 
-### Advanced Usage
+The site was tested using the following procedures:
+- **HTML:**
+1. Select and copy all the content of the HTML file
+2. Go to the [W3C Markup Validation Service](https://validator.w3.org/)
+3. Click on the "Validate by Direct Input tab"
+4. Paste the HTML into the box and click "Check"
+5. If any errors are found, fix them in the HTML file
+- **CSS:** 
+1. Select and copy all the content of the CSS file
+2. Go to the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+3. Click on the "By direct input" tab
+4. Paste the CSS into the box and click "Check"
+5. If any errors are found, fix them in the CSS file
+- **Site Navigation:** Click the "HOME", "SERVICES", "ABOUT" and "CONTACT" links 
+in the navbars of all four pages to ensure that they go to the correct pages
+- **Contact Form:** Attempt to submit the form with blank fields to ensure that 
+it prompts the user to fill in all fields before submitting
+- **Responsivenes:** Check the site on the full range of screen sizes to ensure 
+that it is fully responsive
+- **Cross-browser Compatibility:** View and test the website in Chrome, Edge, 
+Firefox and Opera to ensure compatiblity with a range of popular browsers
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+## Deployment
 
-#### Gulp Tasks
+The project was deployed on GitHub as folows: 
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+1. Push the local repository to GitHub
+2. Navigate to the repository in GitHub.
+3. Click on Settings
+4. Scroll down to GitHub Pages and selected the master branch as the source 
+5. Click Save. 
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+The procedure worked without any errors, and there are no differences between the deployed version and the development version.
 
-## Troubleshooting and Help
 
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+## Credits
 
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+### Design
+- The design of the site is based on the [Start Bootstrap Grayscale theme](https://startbootstrap.com/template-overviews/grayscale/).
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+### Media
+- The photos used in this site were obtained from Wikimedia Commons.

@@ -1,4 +1,4 @@
-# Your Project's Name
+# 2019 Running Challenge
 
 This is a website about a challenge to run or walk 1,000 miles in 2019. It was created as part of Code Institute's January 2019 hackathon 
 by Selina Erhabor, Sarah Mackle and Joan Sweeney.
@@ -77,4 +77,4 @@ The procedure worked without any errors, and there are no differences between th
 - The design of the site is based on the [Start Bootstrap Grayscale theme](https://startbootstrap.com/template-overviews/grayscale/).
 
 ### Media
-- The photos used in this site were obtained from Wikimedia Commons.
+- The photos used in this site were obtained from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page).

@@ -27,6 +27,9 @@ The site has a form for sending messages of support to challenge participants.
 - The suggestions section gives users ideas about how to make the challenge more enjoyable.
 - There is a form for supporters of challenge participants to send messages of encouragement.
 
+### Features Left to Implement
+- A working counter.
+
 ## Technologies Used
 
 - **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)** was used to write the content of the site.
